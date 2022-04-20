@@ -9,6 +9,11 @@
 </template>
 
 <style lang="scss"> // det her rammer alle components
+    
+    body {
+      background-color: rgb(226, 244, 164);
+    }
+    
     .box1 {
         background-color: purple;
         width:40px;
