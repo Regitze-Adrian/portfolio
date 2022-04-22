@@ -47,6 +47,15 @@
 </div>
 
 
+
+
+  <div class="cv">
+   <img src="../assets/CV.png" alt="CV">
+  </div>
+
+
+
+
 </template>
 
 <style lang="scss"> // det her rammer alle components
@@ -100,12 +109,11 @@
 
 </style>
 
-<script>
+<style scoped>
+  img {
+  width: 1000x;
+  height: 1500px;
+  margin-top: 50px;
+  }
+</style>
 
-
-export default {
-    components: {
-
-    }
-}
-</script>

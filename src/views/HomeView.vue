@@ -1,8 +1,9 @@
 <template>
   <div class="home">
+    <div class="logo">
     <img alt="Vue logo" src="../assets/logo.png">
   </div>
-
+</div>
   <div class="nametitle"> Regitze Adrians </div>
   <div class="portfoliotitle">
    <span style="--i:1">P</span>
