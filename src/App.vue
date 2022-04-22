@@ -22,6 +22,7 @@ export default {
 
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Oswald&display=swap');
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -36,7 +37,7 @@ nav {
 
   a {
     font-weight: bold;
-    color: #503c2c;
+    color: #75451e;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     letter-spacing: 1px;

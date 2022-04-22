@@ -1,109 +1,109 @@
 <template>
+ <div class="container-md">
+  <div class="row">
+  <div class="col-12 col-sm-12 col-md-12 mb-12"><div class="projecttitle">
+   <span style="--i:1">P</span>
+   <span style="--i:2">R</span>
+   <span style="--i:3">O</span>
+   <span style="--i:4">J</span>
+   <span style="--i:5">E</span>
+   <span style="--i:6">K</span>
+   <span style="--i:7">T</span>
+   <span style="--i:8">E</span>
+   <span style="--i:9">R</span>
+  </div></div></div></div>
+ 
  <div class="container-md"> <!-- switch to margin x over MD size(fluid and !fluid) -->
   <div class="row">
+  <div class="col-12 col-sm-6 col-md-4 mb-4">
+  <div class="card" style="width: 18rem;">
+  <img src="../assets/halloweencrop.png" class="card-img-top" alt="halloweenposter">
+  <div class="card-body">
+    <h5 class="card-title">Halloween Plakat</h5>
+    <p class="card-text">Plakat lavet som reklame for en Halloween-fest. Denne plakat er lavet i Adobe Illustrator ved selv at tegne alle elementerne med vektorgrafik.</p>
 
-    <div :class="{active: isActive, 'text-color': isActive}">text</div>
+  </div>
+  </div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 mb-4">
+  <div class="card" style="width: 18rem;">
+  <img src="../assets/beatupcrop.png" class="card-img-top" alt="halloweenposter">
+  <div class="card-body">
+    <h5 class="card-title">Beat Up Face</h5>
+    <p class="card-text">Photoshop øvelse ved at redigere ansigtet, så det ligner, at det er blevet smadret ved at bruge diverse værktøjer og blende andre elementer ind.</p>
 
-    <button @click="showMeDaData()">show data</button>
-    <div v-if="showData">
-      loading data...
-    </div>
-    <div v-else class="col-12 col-sm-6 col-md-4 mb-4" v-for="projectItem in projects" :key="projectItem">
-      <div class="card" style="">
-        <img :src="projectItem.projectURL" class="card-img-top" alt="...">
-        <div class="card-body justify-content-start">
-          <h5 id="cardOne" class="card-title ">{{projectItem.projectTitle}}</h5>
-          <p class="card-text">{{projectItem.projectDescription}}</p>
-          <a href="#" class="btn btn-primary">Go somewhere {{projectItem.id}}</a>
-        </div>
-      </div>
-    </div>
+  </div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 mb-4">
+  <div class="card" style="width: 18rem;">
+  <img src="../assets/trapholtcrop.png" class="card-img-top" alt="halloweenposter">
+  <div class="card-body">
+    <h5 class="card-title">Trapholt</h5>
+    <p class="card-text"> Fiktivt semesterprojekt om at finde nyt koncept til Trapholt: Dating. I dette projekt har vi indsamlet data, fremstillet kreative produkter og kodet en hjemmeside.</p>
 
-  
+  </div>
+  </div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 mb-4">
+  <div class="card" style="width: 18rem;">
+  <img src="../assets/rjlogocrop.png" class="card-img-top" alt="halloweenposter">
+  <div class="card-body">
+    <h5 class="card-title">Remote Job Portal</h5>
+    <p class="card-text"> Fiktivt projekt i UX om at kreere en ny jobportal. Vi skabte en brugervenlig jobportal ved hjælp af dataindsamling og lavede designet i Adobe XD. </p>
 
+  </div>
+</div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 mb-4">
+  <div class="card" style="width: 18rem;">
+  <img src="../assets/citybranding.png" class="card-img-top" alt="halloweenposter">
+  <div class="card-body">
+    <h5 class="card-title">City Branding</h5>
+    <p class="card-text">Projekt om at brande Esbjerg på en ny måde. Vi valgte at give Festugen et twist ved at tilføje et ColorRun. Vi fremstillede infographics, videoer og en plakat. </p>
+
+  </div>
+</div>
+</div>
   </div>
   
 </div>
 </template>
 
-<script>
-import { ref } from 'vue'
+<style>
+ .projecttitle {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: relative;
+  }
 
-export default {
-  setup() {
-    let showData = ref(true)
-    let isActive = ref(false)
-
-    /* function showMeDaData() {
-      showData.value = !showData.value
-      isActive.value = !isActive.value
-    } */
-
-    let showMeDaData = () => {
-      showData.value = !showData.value
-      isActive.value = !isActive.value
-    }
-
-    let projects = ref([
-      {
-        id: 1,
-        projectURL:"https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80",
-        projectTitle:"Project One",
-        projectDescription:"Some quick example text to build up the bulk of the card's content."
-      },
-      {
-        id:2,
-        projectURL:"https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80",
-        projectTitle:"Project Two",
-        projectDescription:"Lorem ipsum"
-      }, 
-      {
-        id:3,
-        projectURL:"https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80",
-        projectTitle:"Project Three",
-        projectDescription:"Lorem ipsum"
-      }, 
-      {
-        id:4,
-        projectURL:"https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80",
-        projectTitle:"Project Four",
-        projectDescription:"Lorem ipsum"
-      }, 
-      {
-        id:5,
-        projectURL:"https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80",
-        projectTitle:"Project Five",
-        projectDescription:"Lorem ipsum"
-      }, 
-      {
-        id:6,
-        projectURL:"https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvamVjdHN8ZW58MHx8MHx8&w=1000&q=80",
-        projectTitle:"Project Six",
-        projectDescription:"Lorem ipsum"
-      }, 
-      
-    ])
-
-    return {
-      projects,
-      showData,
-      showMeDaData,
-      isActive
-      
-    }
+.projecttitle span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  animation: flip 2s;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
   }
 }
-</script>
 
-<style scoped>
-#cardOne{
-  color:red
+.container-md {
+  display:flex;
+
 }
-.active {
-  background-color: khaki;
-  
+
+.card {
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px;
 }
-.text-color {
-  color:darkviolet;
-}
+
 </style>
