@@ -19,39 +19,39 @@
   
 <div class="containertitle"> JEG HAR KOMPETENCER INDENFOR... </div>
 
-<div class="container-md">
+<div class="container-md justify-content-center">
   <div class="row">
-  <div class="col-12 col-sm-6 col-md-4 mb-4">
+  <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
   <div class="cardone">
     <div class="cardbubble"> UX <br> UI </div>
-  </div></div></div>
+  </div></div>
  
 
-  <div class="row">
-  <div class="col-12 col-sm-6 col-md-4 mb-4">
+  
+  <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
   <div class="cardtwo">
     <div class="cardbubble"> DESIGN </div>
 </div></div>
-  </div>
 
-  <div class="row">
-  <div class="col-12 col-sm-6 col-md-4 mb-4">
+
+  
+  <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
   <div class="cardthree">
     <div class="cardbubble"> FRONT <br> END <br> DEV. </div>
-</div></div></div>
+</div></div>
 
 
 
-  <div class="row">
-  <div class="col-12 col-sm-6 col-md-4 mb-4">
+  
+  <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
   <div class="cardfour">
     <div class="cardbubble"> SOCIAL <br> MEDIA </div>
 </div></div>
-  </div>
+  
 
 
-   <div class="row">
-  <div class="col-12 col-sm-6 col-md-4 mb-4">
+   
+  <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
   <div class="cardfive">
     <div class="cardbubble"> VIDEO </div>
 </div></div>
