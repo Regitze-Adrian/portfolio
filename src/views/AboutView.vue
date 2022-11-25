@@ -19,7 +19,7 @@
         <div class="row">
           <div class="col-12 col-sm-6 col-md-6 mb-4">
             <div class="aboutme">
-    Jeg hedder Regitze Adrian, og jeg er 22 år. Jeg studerer til multimediedesigner på Erhvervsakademiet Sydvest i Esbjerg, hvor jeg har tillært mig en masse viden indenfor grafisk design, front-end programmering, UX og UI. <br> <br>
+    Jeg hedder Regitze Adrian, og jeg er 23 år. Jeg studerer til multimediedesigner på Erhvervsakademiet Sydvest i Esbjerg, hvor jeg har tillært mig en masse viden indenfor grafisk design, front-end programmering, UX og UI. <br> <br>
     Det er mine store interesser inden for design og IT, som har medvirket til mit valg af dette studie. Jeg har altid holdt af at tegne, at være kreativ og at spille computerspil, så ved at vælge dette felt, er mine passioner blevet sammensmeltet. <br> <br>
     Jeg mestrer flydende dansk og engelsk i både skrift og tale, jeg er komfortabel med tysk, og jeg er i gang med at lære græsk.
   </div>
@@ -50,7 +50,7 @@
 
 
   <div class="cv">
-   <img src="../assets/CV.png" alt="CV">
+   <img src="../assets/CVny.png" alt="CV">
   </div>
 
 

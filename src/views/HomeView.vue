@@ -55,6 +55,11 @@
   <div class="cardfive">
     <div class="cardbubble"> VIDEO </div>
 </div></div>
+
+<div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+  <div class="cardsix">
+    <div class="cardbubble"> DIGITAL <br> MARKETING </div>
+</div></div>
   </div>
  </div>
 
@@ -183,6 +188,20 @@
   align-items: center;
   background-image: linear-gradient(to bottom right, blue, purple);
   box-shadow: 5px 10px 10px 3px rgb(63, 8, 95);
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  color: black;
+}
+
+.cardsix {
+  width: 220px;
+  height:325px; 
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, purple, red);
+  box-shadow: 5px 10px 10px 3px rgb(95, 8, 8);
   font-family: 'Oswald', sans-serif;
   font-size: 28px;
   color: black;
